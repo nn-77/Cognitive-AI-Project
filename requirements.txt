@@ -1,0 +1,14 @@
+# run "pip install wheel setuptools pip --upgrade" first
+# then run "pip install swig" - must be done before attempting to install gymnasium[all]
+    # must be run manually before "pip install -r requirements.txt"
+
+jupyter
+numpy
+torch
+torchvision
+gymnasium[all]
+gymnasium[accept-rom-license]
+torchrl
+tensordict
+matplotlib
+gymnasium[box2d]
